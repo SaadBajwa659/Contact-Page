@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(246, 246, 254);
+}
+
+.first-box {
+    background-color: rgb(253, 221, 236);
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 1rem;
+}
+
+.second-box {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 10rem;
+    left: 20rem;
+    height: 55rem;
+    width: 100rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 1rem 2rem silver;
+    z-index: 100;
+}
+
+.picture {
+    position: absolute;
+    top: 10rem;
+    left: 48rem;
+    height: 130px;
+    width: 90px;
+}
+
+.heading {
+    position: absolute;
+    top: 20rem;
+    left: 39rem;
+    height: 10rem;
+    width: 25rem;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(43, 53, 80);
+}
+
+.description {
+    position: absolute;
+    top: 26rem;
+    left: 39rem;
+    width: 25rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(118, 123, 143);
+}
+
+.contact {
+    position: absolute;
+    bottom: 13rem;
+    left: 41rem;
+    height: 5rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgb(243, 89, 139);
+    color: white;
+    font-size: 2rem;
+    box-shadow: 0.5rem 0.5rem 2rem rgb(243, 89, 139);
+}
+
+.third-box {
+    position: absolute;
+    bottom: 5rem;
+    right: 15rem;
+    height: 15rem;
+    width: 15rem;
+    background-color: rgb(250, 227, 235);
+}
+
+.fourth-box {
+    position: absolute;
+    bottom: 2rem;
+    right: 5rem;
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(250, 227, 235);
+}
