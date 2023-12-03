@@ -1,0 +1,222 @@
+body {
+    background-color: rgb(246, 246, 254);
+}
+
+.contact-page {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 10rem;
+    left: 20rem;
+    height: 55rem;
+    width: 100rem;
+}
+
+.side-photo {
+    height: 55rem;
+    width: 35rem;
+}
+
+.token-logo {
+    position: absolute;
+    bottom: 20rem;
+    left: 2rem;
+}
+
+.token {
+    position: absolute;
+    bottom: 17.5rem;
+    left: 5rem;
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+
+.token-description {
+    position: absolute;
+    bottom: 13rem;
+    left: 2rem;
+    width: 22rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    color: rgb(181, 181, 185);
+}
+
+.twitter {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    bottom: 7rem;
+    left: 2rem;
+    cursor: pointer;
+}
+
+.telegram {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    bottom: 7rem;
+    left: 7.5rem;
+    cursor: pointer;
+}
+
+.linked-in {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    bottom: 7rem;
+    left: 13.5rem;
+    cursor: pointer;
+}
+
+.facebook {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    bottom: 7rem;
+    left: 19.5rem;
+    cursor: pointer;
+}
+
+.heading {
+    position: absolute;
+    top: 4rem;
+    left: 39rem;
+    font-family: sans-serif;
+}
+
+.heading-comment {
+    font-weight: lighter;
+    color: rgb(169, 168, 173);
+}
+
+.cross {
+    background-color: rgb(240, 244, 247);
+    color: rgb(124, 123, 128);
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    height: 4rem;
+    width: 4rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.text-content-area {
+    position: absolute;
+    top: 10rem;
+    left: 39rem;
+    height: 45rem;
+    width: 50rem;
+}
+
+.first {
+    position: relative;
+    top: 2rem;
+    width:240px;
+}
+.first input {
+    top: 0.5rem;
+    height: 4rem;
+    width: 25rem;
+    font-size: 1.5rem;
+}
+
+.first img {
+    position: absolute;
+    top: 1rem;
+    right: -10rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.last {
+    position: relative;
+    top: -2.5rem;
+    left: 30rem;
+    width:240px;
+}
+.last input {
+    top: 0.5rem;
+    height: 4rem;
+    width: 25rem;
+    font-size: 1.5rem;
+}
+
+.last img {
+    position: absolute;
+    top: 1rem;
+    right: -10rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.email {
+    position: relative;
+    top: -2rem;
+    width: 240px;
+}
+.email input {
+    top: 0.5rem;
+    height: 4rem;
+    width: 55rem;
+    font-size: 1.5rem;
+}
+
+.email img {
+    position: absolute;
+    top: 1rem;
+    left: 52.5rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.phone {
+    position: relative;
+    top: -1rem;
+    width: 240px;
+}
+.phone input {
+    top: 0.5rem;
+    height: 4rem;
+    width: 55rem;
+    font-size: 1.5rem;
+}
+
+.phone img {
+    position: absolute;
+    top: 1rem;
+    left: 52.5rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.textarea {
+    border: 2.5px solid rgb(232, 234, 237);
+}
+
+.textarea {
+    height: 15rem;
+    width: 55.3rem;
+    font-size: 1.5rem;
+    border: 2.5px solid rgb(232, 234, 237);
+}
+
+.textarea:active {
+    border: 3px solid rgb(57, 84, 218);
+}
+
+.send {
+    background-color: rgb(38, 69, 211);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+    height: 4rem;
+    width: 55.8rem;
+    position: absolute;
+    bottom: 5rem;
+    cursor: pointer;
+}
